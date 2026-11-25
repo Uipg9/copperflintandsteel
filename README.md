@@ -1,3 +1,5 @@
+<p align="center"><img src="src/main/resources/assets/copperflintandsteel/icon.png" width="128" alt="icon"></p>
+
 # Copper Flint and Steel
 
 A flint and steel made from copper. It works everywhere the vanilla one does (fire, nether portals,
