@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "copperflintandsteel",
+	"version": "${version}",
+	"name": "Copper Flint and Steel",
+	"description": "A cheaper flint and steel made from copper: works everywhere the vanilla one does, with 40 uses.",
+	"authors": [
+		"Uipg9"
+	],
+	"contact": {
+		"homepage": "https://github.com/Uipg9/copperflintandsteel",
+		"sources": "https://github.com/Uipg9/copperflintandsteel"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/copperflintandsteel/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.brian.copperflintandsteel.Copperflintandsteel"
+		],
+		"fabric-client-gametest": [
+			"dev.brian.copperflintandsteel.client.CopperflintandsteelClientGameTest"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
