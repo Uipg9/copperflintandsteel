@@ -1,6 +1,7 @@
 # Roadmap
 
 ## Done (verified by `.\scripts\verify.ps1`: build + unit tests + client gametest)
+- 1.0.1: recipe unlock advancement so the recipe shows in the recipe book (unit test guards every recipe).
 - Item `copperflintandsteel:copper_flint_and_steel`, a vanilla `FlintAndSteelItem` with durability 40.
 - Lights fire on a block with a real right-click, 1 damage per use; breaks on the 40th use.
 - TNT priming (vanilla `TntBlock#useItemOn` checks `Items.FLINT_AND_STEEL` by identity, so a
